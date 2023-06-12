@@ -3,10 +3,6 @@ local action_state = require('telescope.actions.state')
 local utils = require "telescope.utils"
 
 
-local function diffview(target)
-    vim.cmd.DiffviewOpen{target}
-end
-
 local function commit_diffview(prompt_bufnr)
   local picker = action_state.get_current_picker(prompt_bufnr)
   local selection = picker:get_selected_entry()
@@ -70,12 +66,6 @@ local function apply_diffviewer(_, _)
 end
 
 return {
-    setup = apply_diffviewer,
-    exports = {
-        diffview = diffview,
-        commit_diffview = commit_diffview,
-        branch_diffview = branch_diffview,
-        stash_diffview = stash_diffview
-    }
+    setup = apply_diffviewer
 }
 
