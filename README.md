@@ -7,10 +7,7 @@ Features:
 - diff against branches and commits
 
 Inspiration: [paopaol/telescope-git-diffs.nvim](https://github.com/paopaol/telescope-git-diffs.nvim)  
-
-Consider paopal's extension if you're:
-- primarily interested in diffing commits
-- interested in diffing against something other than `LOCAL`
+- Consider paopal's extension if you're interested in diffing against something other than `LOCAL` or don't want to extend from builtins.
 
 ## Installation:
 
