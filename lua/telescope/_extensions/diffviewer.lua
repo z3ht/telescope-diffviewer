@@ -69,9 +69,12 @@ local function apply_diffviewer(_, _)
   --      end
   --  }
   builtin.git_commits {
-    map({"i", "n"}, "<C-r>", function(_prompt_bufnr)
----         print "You typed <C-r>"
----       end)
+      attach_mappings = function(_, map)
+          map({"i", "n"}, "<C-r>", function(_prompt_bufnr)
+              print "You typed <C-r>"
+          end)
+          return true
+      end
   }
 end
 
