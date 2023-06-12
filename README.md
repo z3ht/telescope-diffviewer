@@ -37,7 +37,7 @@ In `git_commits` or `git_branches` picker, hover a row and hit `<C-r>d` to enter
 Currently, there is no support for comparing changes against anything other than `LOCAL`.
 
 ## Complimentary tools  
-- [junegunn/gv.vim](https://github.com/junegunn/gv.vim): comprehensive git versioning history 
+- [junegunn/gv.vim](https://github.com/junegunn/gv.vim): comprehensive git version history 
 - [mbbill/undotree](https://github.com/mbbill/undotree): diff against local changes
 
 ## Contributions
