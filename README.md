@@ -31,13 +31,13 @@ telescope.setup {
   pickers = {
     git_commits = {
       mappings = {
-        n = { ["<C-r>d"] = extensions.diffviewer.commits }
+        n = { ["<C-r>d"] = extensions.diffviewer.commits },
         i = { ["<C-r>d"] = extensions.diffviewer.commits }
       }
     },
     git_branches = {
       mappings = {
-        n = { ["<C-r>d"] = extensions.diffviewer.branches }
+        n = { ["<C-r>d"] = extensions.diffviewer.branches },
         i = { ["<C-r>d"] = extensions.diffviewer.branches }
       }
     }
