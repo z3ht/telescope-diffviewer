@@ -34,7 +34,7 @@ require('telescope').load_extensions('diffviewer')
 
 In `git_commits` or `git_branches` picker, hover a row and hit `<C-r>d` to enter the appropriate `DiffviewOpen` mode
 
-Currently, there is no support for comparing changes against anything other than `LOCAL`. Please submit an Issue or Merge Request if you're interested in this functionality
+Currently, there is no support for comparing changes against anything other than `LOCAL`.
 
 ## Complimentary tools  
 - [junegunn/gv.vim](https://github.com/junegunn/gv.vim): comprehensive git versioning history 
