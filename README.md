@@ -8,7 +8,7 @@ Features:
 
 Alternatives:
 - [paopaol/telescope-git-diffs.nvim](https://github.com/paopaol/telescope-git-diffs.nvim): allows for diffing against something other than `LOCAL`
-- [aaronhallaert/advanced-git-search.nvim](https://github.com/aaronhallaert/advanced-git-search.nvim): for extreme customizability
+- [aaronhallaert/advanced-git-search.nvim](https://github.com/aaronhallaert/advanced-git-search.nvim): extreme customizability
 
 ## Installation:
 
