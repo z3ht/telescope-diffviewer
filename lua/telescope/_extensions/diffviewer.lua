@@ -5,7 +5,7 @@ local utils = require "telescope.utils"
 
 local function commit_diffview(prompt_bufnr)
   local picker = action_state.get_current_picker(prompt_bufnr)
-  local selection = picker:get_selected_entry()
+  local selection = picker.get_selected_entry()
   if selection == nil then
     utils.__warn_no_selection "extensions.diffviewer.commit_diffview"
     return
@@ -13,7 +13,7 @@ local function commit_diffview(prompt_bufnr)
 
   actions.close(prompt_bufnr)
 
-  print("commit_diffview "..selection.value)
+  print("commit_diffview ")
 end
 
 local builtin = require('telescope.builtin')
