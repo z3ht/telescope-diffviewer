@@ -42,4 +42,4 @@ Currently, there is no support for comparing changes against anything other than
 
 ## Contributions
 
-Please submit an Issue elaborating on proposed changes before submitting any Merge Requests. I am open to ideas but reserve the right to say decline any proposal.
+Please submit an Issue elaborating on proposed changes before submitting any Merge Requests. I am open to ideas but reserve the right to decline any proposals. I'd like to keep the scope of this plugin as small as possible. If you want to go big, feel free to message me about merging my changes into your project!
