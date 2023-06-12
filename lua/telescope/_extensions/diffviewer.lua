@@ -46,20 +46,20 @@ local function stash_diffview(prompt_bufnr)
   print("stash_diffview "..selection.value)
 end
 
-local telescope = require('telescope')
+local builtin = require('telescope.builtin')
 
 local function apply_diffviewer(_, _)
-    telescope.git_commits {
+    builtin.git_commits {
         attach_mappings = function(_, map)
             map({"i", "n"}, "<C-r>d", commit_diffview)
         end
     }
-    telescope.git_branches {
+    builtin.git_branches {
         attach_mappings = function(_, map)
             map({"i", "n"}, "<C-r>d", branch_diffview)
         end
     }
-    telescope.git_stash {
+    builtin.git_stash {
         attach_mappings = function(_, map)
             map({"i", "n"}, "<C-r>d", stash_diffview)
         end
