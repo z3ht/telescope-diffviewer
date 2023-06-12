@@ -1,13 +1,11 @@
-local builtin = require('telescope.builtin')
-
-local function apply_diffviewer(__, ___)
-   builtin.find_files {
+local function apply_diffviewer(cfg, ext_cfg)
+   require('telescope.builtins').find_files {
       attach_mappings = function(_, map)
-          map({"i", "n"}, "<C-r>", function(_prompt_bufnr)
+          map({"i", "n"}, "<C-r>d", function(_prompt_bufnr)
               print "You typed <C-r>"
           end)
           return true
-      end
+      end,
   }
 end
 
