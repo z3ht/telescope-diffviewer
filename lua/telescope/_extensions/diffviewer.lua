@@ -1,5 +1,5 @@
 local function apply_diffviewer(cfg, ext_cfg)
-    require('telescope').default.mappings {
+    require('telescope').defaults.mappings {
         pickers = {
             find_files = {
                 mappings = {
