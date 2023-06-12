@@ -51,19 +51,19 @@ local builtin = require('telescope.builtin')
 local function apply_diffviewer(_, _)
     builtin.git_commits {
         attach_mappings = function(_, map)
-            map("n", "<c-r>v", commit_diffview)
+            map("n", "gv", commit_diffview)
             return true
         end
     }
     builtin.git_branches {
         attach_mappings = function(_, map)
-            map("n", "<c-r>v", branch_diffview)
+            map("n", "gv", branch_diffview)
             return true
         end
     }
     builtin.git_stash {
         attach_mappings = function(_, map)
-            map("n", "<c-r>v", stash_diffview)
+            map("n", "gv", stash_diffview)
             return true
         end
     }
