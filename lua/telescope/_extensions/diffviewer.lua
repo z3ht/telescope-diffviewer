@@ -17,8 +17,7 @@ end
 
 return {
     exports = {
-        commits = diffview,
-        branches = diffview
+        diff = diffview
     }
 }
 
