@@ -35,8 +35,8 @@ In `git_commits`, `git_branches`, or `git_stash` picker, hover a row and hit `<C
 Currently, there is no support for comparing changes against anything other than `LOCAL`.
 
 ## Complimentary tools  
-- [junegunn/gv.vim](https://github.com/junegunn/gv.vim): comprehensive git version history 
-- [mbbill/undotree](https://github.com/mbbill/undotree): diff against local changes
+- [junegunn/gv.vim](https://github.com/junegunn/gv.vim): git commit browser 
+- [mbbill/undotree](https://github.com/mbbill/undotree): visualize undo history
 
 ## Contributions
 
