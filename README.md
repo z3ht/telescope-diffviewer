@@ -17,6 +17,7 @@ use {
   'z3ht/telescope-diffviewer.nvim',
    requires = {
      "nvim-lua/plenary.nvim",
+     "nvim-telescope/telescope.nvim",
      "sindrets/diffview.nvim",
    }
 }
