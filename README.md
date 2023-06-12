@@ -60,7 +60,7 @@ telescope.load_extension('diffviewer')
 
 ## Usage
 
-In `git_commits` or `git_branches` picker, hover a row and hit `<C-r>d` to enter the appropriate `DiffviewOpen` mode
+In one of the configured pickers, hover a row and hit `<C-r>d` to enter the appropriate `DiffviewOpen` mode
 
 Currently, there is no support for comparing changes against anything other than `LOCAL`.
 
