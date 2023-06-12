@@ -12,7 +12,7 @@ local function diffview_commits(prompt_bufnr)
 
   actions.close(prompt_bufnr)
 
-  print("commit_diffview "..selection.value)
+  vim.cmd.DiffviewOpen{selection.value}
 end
 
 local function diffview_branches(prompt_bufnr)
@@ -24,7 +24,7 @@ local function diffview_branches(prompt_bufnr)
 
   actions.close(prompt_bufnr)
 
-  print("branch_diffview "..selection.value)
+  vim.cmd.DiffviewOpen{selection.value}
 end
 
 return {
