@@ -3,12 +3,12 @@
 Telescope extension providing integration with diffviewer
 
 Features:  
-- integrates directly with Telescope builtins
+- integrates directly with Telescope picker builtins
 - diff against branches and commits
 
 Alternatives:
 - [paopaol/telescope-git-diffs.nvim](https://github.com/paopaol/telescope-git-diffs.nvim): allows for diffing against something other than `LOCAL`
-- [aaronhallaert/advanced-git-search.nvim](https://github.com/aaronhallaert/advanced-git-search.nvim): extreme customizability
+- [aaronhallaert/advanced-git-search.nvim](https://github.com/aaronhallaert/advanced-git-search.nvim): extreme customizability using advanced pickers 
 
 ## Installation:
 
